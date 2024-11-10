@@ -26,6 +26,7 @@ function App() {
         setCurrentRepo('')
         return
       }
+      
 
     }
     alert('Repositório não encontrado')
