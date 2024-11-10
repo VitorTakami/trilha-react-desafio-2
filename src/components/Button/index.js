@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ButtonContainer } from './styles';
+import { ButtonContainer, ButtonContainerRemover } from './styles';
 
 function Button({onClick}) {
   return (
@@ -9,5 +9,14 @@ function Button({onClick}) {
     </ButtonContainer>
   )
 }
+
+export function ButtonRemover({onClick}) {
+  return (
+    <ButtonContainerRemover onClick={onClick}>
+       Remover
+    </ButtonContainerRemover>
+  )
+}
+
 
 export default Button
